@@ -1,3 +1,5 @@
+// 8. named imports
+
 // import Airplane from './airplane';
 
 // function displayFuelCapacity() {
