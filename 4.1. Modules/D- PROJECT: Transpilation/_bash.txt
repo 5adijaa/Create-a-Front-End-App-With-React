@@ -1,0 +1,12 @@
+$npm init
+
+$npm install babel-cli -D
+
+$npm install babel-preset-env -D
+
+$touch .babelrc
+
+$npm run build
+
+> babel src -d lib
+
