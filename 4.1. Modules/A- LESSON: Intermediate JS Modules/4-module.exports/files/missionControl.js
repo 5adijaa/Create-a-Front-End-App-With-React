@@ -1,7 +1,9 @@
-const Airplane = require('./1-airplane.js');
+import Airplane from './airplane';
 
-function displayAirplane() {
-  console.log(Airplane.myAirplane);
+function displayFuelCapacity() {
+  Airplane.availableAirplanes.forEach(function(element) {
+    console.log('Fuel Capacity of ' + element['name'] + ': ' + element['fuelCapacity']);
+  });
 }
 
-displayAirplane();
+displayFuelCapacity();
