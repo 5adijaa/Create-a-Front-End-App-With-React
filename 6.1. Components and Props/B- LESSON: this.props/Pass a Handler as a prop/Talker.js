@@ -12,7 +12,7 @@ class Talker extends React.Component {
   }
   
   render() {
-    return <Button />;
+    return <Button talk={this.talk} />;
   }
 }
 
